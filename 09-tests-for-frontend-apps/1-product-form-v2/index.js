@@ -1,4 +1,4 @@
-import SortableList from '../../2-sortable-list/src/index.js';
+import SortableList from '../2-sortable-list/index.js';
 import escapeHtml from './utils/escape-html.js';
 import fetchJson from './utils/fetch-json.js';
 

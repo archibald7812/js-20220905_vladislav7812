@@ -18,7 +18,7 @@ export default class SortableTable {
 			orderValue: 'asc',
 			fieldValue: headersConfig.find(item => item.sortable).id
 		},
-		isSortLocally = true,
+		isSortLocally = false,
 		url
 	} = {}) {
 		this.url = url;
